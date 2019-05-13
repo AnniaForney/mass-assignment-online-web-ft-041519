@@ -6,7 +6,7 @@ class Person
 
   def initialize(attributes)
     attributes.each{|key, value| puts }
-    attribute.send 
+    attributes.send 
   end
 
 end
