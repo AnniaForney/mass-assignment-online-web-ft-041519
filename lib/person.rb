@@ -5,7 +5,7 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
   def initialize(attributes)
-    attributes.each do |key, value| send("#{{attribute_name= value}}")
+    attributes.each do |key, value| send("#{{attributes= value}}")
   end
 
 end
