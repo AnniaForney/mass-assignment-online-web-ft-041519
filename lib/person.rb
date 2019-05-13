@@ -6,8 +6,8 @@ class Person
 
   def initialize(attributes)
     attributes.each do |key, value|
-      puts key 
-      puts value 
+      puts key
+      puts value
       attribute.send 
   end
 
