@@ -5,6 +5,7 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
   def initialize(attributes)
+    attributes do |key, values| key_valuesmethod.send(attributes)
   end
 
 end
